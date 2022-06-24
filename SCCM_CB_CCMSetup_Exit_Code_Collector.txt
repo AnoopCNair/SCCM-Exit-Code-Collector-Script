@@ -1,0 +1,134 @@
+
+$filename="SCCMData.xml"
+$currentpath=$ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath('.\')
+$computer_list="$currentpath\ComputerList.txt"
+$ccmsetup_val=@()
+    $string=@()
+$xmlFile = "$currentpath\$filename"
+Function Read-CMLogfile([array]$paths) {
+
+    $result = $null
+    $result = @()
+    Foreach($path in $paths){
+        $cmlogformat = $false
+        $cmslimlogformat = $false
+        $file = [System.io.File]::Open($path, 'Open', 'Read', 'ReadWrite')
+        $reader = New-Object System.IO.StreamReader($file)
+        [string]$LogFileRaw = $reader.ReadToEnd()
+        $reader.Close()
+        $file.Close()
+
+        $pattern = "LOG\[(.*?)\]LOG(.*?)time(.*?)date"
+        $patternslim = '\$\$\<(.*?)\>\<thread='
+        
+        if(([Regex]::Match($LogFileRaw, $pattern)).Success -eq $true){ $cmlogformat = $true}
+        elseif(([Regex]::Match($LogFileRaw, $patternslim)).Success -eq $true){ $cmslimlogformat = $true}
+        
+        If($cmlogformat){
+
+            $logarray = $LogFileRaw -split "<!"
+
+            foreach($logline in $logarray){
+                
+                If($logline){            
+                   
+                    $metadata = $logline -split "><"
+
+                  
+                    $logtext = ($metadata[0]).Substring(0,($metadata[0]).Length-6).Substring(5)
+                   
+                   
+                    $metaarray = $metadata[1] -split '"'
+
+                  
+                    $result += $logtext |select-object @{Label="LogText";Expression={$logtext}}, @{Label="Type";Expression={[LogType]$metaarray[9]}},@{Label="Component";Expression={$metaarray[5]}},@{Label="DateTime";Expression={[datetime]::ParseExact($metaarray[3]+($metaarray[1]).Split("-")[0].ToString(), "MM-dd-yyyyHH:mm:ss.fff", $null)}},@{Label="Thread";Expression={$metaarray[11]}}
+                }        
+            }
+        }
+
+        If($cmslimlogformat){
+       
+       
+        $logarray = $LogFileRaw -split [System.Environment]::NewLine
+              
+        foreach($logline in $logarray){
+            
+            If($logline){  
+
+              
+                    $metadata = $logline -split '\$\$<'
+
+                    
+                    $logtext = $metadata[0]
+            
+                  
+                    $metaarray = $metadata[1] -split '><'
+                    If($logtext){
+                     
+                        $result += $logtext |select-object @{Label="LogText";Expression={$logtext}}, @{Label="Type";Expression={[LogType]0}},@{Label="Component";Expression={$metaarray[0]}},@{Label="DateTime";Expression={[datetime]::ParseExact(($metaarray[1]).Substring(0, ($metaarray[1]).Length - (($metaarray[1]).Length - ($metaarray[1]).LastIndexOf("-"))), "MM-dd-yyyy HH:mm:ss.fff", $null)}},@{Label="Thread";Expression={($metaarray[2] -split " ")[0].Substring(7)}}
+                    }
+                }
+            }
+        }
+    }
+
+    
+    $result 
+}
+Function Pars($Path) {
+  
+    $string=Read-CMLogfile -path $ccmsetup_log 
+    $string
+    $ccmsetup_val= $string.LogText -like 'CcmSetup is exiting with return code*' 
+    if ( $ccmsetup_val ) {
+        $exitcode=$ccmsetup_val[-1].split()[-1]
+        $XmlDoc =[xml](Get-Content -Path $xmlFile)
+        $value1= $XmlDoc.sccmdata.exit | Where-Object { $_.id -eq $exitcode  } 
+        New-Object -TypeName PSObject -Property @{
+            ComputerName=$comp
+            EXITCode= $value1.id
+            Description = $value1.Description
+            Solution = $value1.Solution
+        } | Select ComputerName,EXITCode, Description, Solution | Export-Csv -path $currentpath\output.csv
+
+    }
+     }
+Function Main($path){
+   
+    ForEach ($comp in $computers){
+        $PingRequest = Test-Connection -ComputerName $Comp -Count 1 -Quiet
+        if ( $pingRequest -eq $true){
+        $ccmsetup_log="\\$comp\c$\Windows\ccmsetup\Logs\ccmsetup.log"
+        pars($ccmsetup_log)
+    }
+    else {
+       "$comp is offline"
+    }
+    }
+}
+
+Try {
+
+if(Test-path $computer_list)
+{
+    $computers=Get-content $computer_list
+    if(Test-Path $xmlFile){
+        Main($path)
+        
+    }else{
+        $url ="https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMClientExitCode.xml"  
+        $filename="SCCMData.xml"
+        $webclient = New-Object System.Net.WebClient
+        $webclient.DownloadFile($url,$xmlFile)
+        Main($path)
+    }
+}
+else {
+   " ComputerList.txt is not availbe in $currentpath"
+}
+
+}
+Catch [System.Exception] {"Caught the exception"
+$_.exception.message
+$_.exception.gettype().fullname
+}

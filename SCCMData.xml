@@ -1,0 +1,320 @@
+<!-- file.xml -->
+<script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app216.us.archive.org';v.server_ms=397;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="/_static/js/bundle-playback.js?v=36gO9Ebf" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml","20200318095231","http://web.archive.org/","web","/_static/",
+	      "1584525151");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=fantwOh2" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display:none;direction:ltr;">
+<div id="wm-ipp" style="position:fixed;left:0;top:0;right:0;">
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=http%3A//web.archive.org/web/20200318095231/https%3A//gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml"
+	    scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><div id="wm-ipp-inside">
+  <div id="wm-toolbar" style="position:relative;display:flex;flex-flow:row nowrap;justify-content:space-between;">
+    <div id="wm-logo" style="/*width:110px;*/padding-top:12px;">
+      <a href="/web/" title="Wayback Machine home page"><img src="/_static/images/toolbar/wayback-toolbar-logo-200.png" srcset="/_static/images/toolbar/wayback-toolbar-logo-100.png, /_static/images/toolbar/wayback-toolbar-logo-150.png 1.5x, /_static/images/toolbar/wayback-toolbar-logo-200.png 2x" alt="Wayback Machine" style="width:100px" border="0" /></a>
+    </div>
+    <div class="c" style="display:flex;flex-flow:column nowrap;justify-content:space-between;flex:1;">
+      <form class="u" style="display:flex;flex-direction:row;flex-wrap:nowrap;" target="_top" method="get" action="/web/submit" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml" onfocus="this.focus();this.select();" style="flex:1;"/><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20200318095231" /><input type="submit" value="Go" />
+      </form>
+      <div style="display:flex;flex-flow:row nowrap;align-items:flex-end;">
+		<div class="s" id="wm-nav-captures">
+	  	  <a class="t" href="/web/20200318095231*/https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml" title="See a list of every capture for this URL">3 captures</a>
+	  <div class="r" title="Timespan for captures of this URL">18 Mar 2020 - 16 Jan 2021</div>
+	  </div>
+	<div class="k" style="flex:1;">
+	  <a href="" id="wm-graph-anchor">
+	    <div id="wm-ipp-sparkline" title="Explore captures for this URL" style="position: relative">
+	      <canvas id="wm-sparkline-canvas" width="675" height="27" border="0"></canvas>
+	    </div>
+	  </a>
+	</div>
+      </div>
+    </div>
+    <div class="n">
+      <table>
+	<tbody>
+	  <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+	  <tr class="m">
+	    <td class="b" nowrap="nowrap">Feb</td>
+	    <td class="c" id="displayMonthEl" title="You are here: 09:52:31 Mar 18, 2020">MAR</td>
+	    <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20200920115850/https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml" title="20 Sep 2020"><strong>Sep</strong></a></td>
+	  </tr>
+	  <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+	  <tr class="d">
+	    <td class="b" nowrap="nowrap"><img src="/_static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" /></td>
+	    <td class="c" id="displayDayEl" style="width:34px;font-size:22px;white-space:nowrap;" title="You are here: 09:52:31 Mar 18, 2020">18</td>
+	    <td class="f" nowrap="nowrap"><a href="http://web.archive.org/web/20200920115850/https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml" title="11:58:50 Sep 20, 2020"><img src="/_static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a></td>
+	  </tr>
+	  <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+	  <tr class="y">
+	    <td class="b" nowrap="nowrap">2019</td>
+	    <td class="c" id="displayYearEl" title="You are here: 09:52:31 Mar 18, 2020">2020</td>
+	    <td class="f" nowrap="nowrap">2021</td>
+	  </tr>
+	</tbody>
+      </table>
+    </div>
+    <div class="r" style="display:flex;flex-flow:column nowrap;align-items:flex-end;justify-content:space-between;">
+      <div id="wm-btns" style="text-align:right;height:23px;">
+        	<span class="xxs">
+          <div id="wm-save-snapshot-success">success</div>
+          <div id="wm-save-snapshot-fail">fail</div>
+          <a id="wm-save-snapshot-open" href="#"
+	     title="Share via My Web Archive" >
+            <span class="iconochive-web"></span>
+          </a>
+          <a href="https://archive.org/account/login.php" title="Sign In" id="wm-sign-in">
+            <span class="iconochive-person"></span>
+          </a>
+          <span id="wm-save-snapshot-in-progress" class="iconochive-web"></span>
+	</span>
+        	<a class="xxs" href="http://faq.web.archive.org/" title="Get some help using the Wayback Machine" style="top:-6px;"><span class="iconochive-question" style="color:rgb(87,186,244);font-size:160%;"></span></a>
+	<a id="wm-tb-close" href="#close" style="top:-2px;" title="Close the toolbar"><span class="iconochive-remove-circle" style="color:#888888;font-size:240%;"></span></a>
+      </div>
+      <div id="wm-share" class="xxs">
+        <a href="/web/20200318095231/http://web.archive.org/screenshot/https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml"
+           id="wm-screenshot"
+           title="screenshot">
+          <span class="wm-icon-screen-shot"></span>
+        </a>
+        <a href="#" id="wm-video" title="video">
+          <span class="iconochive-movies"></span>
+        </a>
+	<a id="wm-share-facebook" href="#" data-url="http://web.archive.org/web/20200318095231/https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml" title="Share on Facebook" style="margin-right:5px;" target="_blank"><span class="iconochive-facebook" style="color:#3b5998;font-size:160%;"></span></a>
+	<a id="wm-share-twitter" href="#" data-url="http://web.archive.org/web/20200318095231/https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml" title="Share on Twitter" style="margin-right:5px;" target="_blank"><span class="iconochive-twitter" style="color:#1dcaff;font-size:160%;"></span></a>
+      </div>
+      <div style="padding-right:2px;text-align:right;white-space:nowrap;">
+	<a id="wm-expand" class="wm-btn wm-closed" href="#expand" onclick="__wm.ex(event);return false;"><span id="wm-expand-icon" class="iconochive-down-solid"></span> <span class="xxs" style="font-size:80%;">About this capture</span></a>
+      </div>
+    </div>
+  </div>
+    <div id="wm-capinfo" style="border-top:1px solid #777;display:none; overflow: hidden">
+                    <div id="wm-capinfo-collected-by">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center">COLLECTED BY</div>
+    <div style="padding:3px;position:relative" id="wm-collected-by-content">
+            <div style="display:inline-block;vertical-align:top;width:50%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/archiveteam);"></span>
+		Organization: <a style="color:#33f;" href="https://archive.org/details/archiveteam" target="_new"><span class="wm-title">Archive Team</span></a>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  <img align=right src="http://archiveteam.org/images/e/e6/Archiveteam.jpg" width=200> Formed in 2009, the Archive Team (not to be confused with the archive.org Archive-It Team) is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of history and digital heritage. The group is 100% composed of volunteers and interested parties, and has expanded into a large amount of related projects for saving online and digital history.
+<p>
+History is littered with hundreds of conflicts over the future of a community, group, location or business that were "resolved" when one of the parties stepped ahead and destroyed what was there. With the original point of contention destroyed, the debates would fall to the wayside. Archive Team believes that by duplicated condemned data, the conversation and debate can continue, as well as the richness and insight gained by keeping the materials. Our projects have ranged in size from a single volunteer downloading the data to a small-but-critical site, to over 100 volunteers stepping forward to acquire terabytes of user-created data to save for future generations.
+<p>
+The main site for Archive Team is at <a href="http://www.archiveteam.org">archiveteam.org</a> and contains up to the date information on various projects, manifestos, plans and walkthroughs.
+<p>
+This collection contains the output of many Archive Team projects, both ongoing and completed. Thanks to the generous providing of disk space by the Internet Archive, multi-terabyte datasets can be made available, as well as in use by the <a href="http://archive.org/web/web.php">Wayback Machine</a>, providing a path back to lost websites and work. 
+<p>
+Our collection has grown to the point of having sub-collections for the type of data we acquire. If you are seeking to browse the contents of these collections, the Wayback Machine is the best first stop. Otherwise, you are free to dig into the stacks to see what you may find.
+<p>
+<b>The Archive Team Panic Downloads</b> are full pulldowns of currently extant websites, meant to serve as emergency backups for needed sites that are in danger of closing, or which will be missed dearly if suddenly lost due to hard drive crashes or server failures. 
+<p>
+	</div>
+	      </div>
+      <div style="display:inline-block;vertical-align:top;width:49%;">
+			<span class="c-logo" style="background-image:url(https://archive.org/services/img/archivebot)"></span>
+		<div>Collection: <a style="color:#33f;" href="https://archive.org/details/archivebot" target="_new"><span class="wm-title">ArchiveBot: The Archive Team Crowdsourced Crawler</span></a></div>
+		<div style="max-height:75px;overflow:hidden;position:relative;">
+	  <div style="position:absolute;top:0;left:0;width:100%;height:75px;background:linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0) 90%,rgba(255,255,255,255) 100%);"></div>
+	  ArchiveBot is an IRC bot designed to automate the archival of smaller websites (e.g. up to a few hundred thousand URLs). You give it a URL to start at, and it grabs all content under that URL, records it in a WARC, and then uploads that WARC to ArchiveTeam servers for eventual injection into the Internet Archive (or other archive sites).
+<p>
+To use ArchiveBot, drop by #archivebot on EFNet. To interact with ArchiveBot, you issue commands by typing it into the channel. Note you will need channel operator permissions in order to issue archiving jobs. The dashboard shows the sites being downloaded currently.
+<p>
+There is a dashboard running for the archivebot process at <a href="http://www.archivebot.com">http://www.archivebot.com</a>.
+<p>
+ArchiveBot's source code can be found at <a href="https://github.com/ArchiveTeam/ArchiveBot">https://github.com/ArchiveTeam/ArchiveBot</a>.
+	</div>
+	      </div>
+    </div>
+    </div>
+    <div id="wm-capinfo-timestamps">
+    <div style="background-color:#666;color:#fff;font-weight:bold;text-align:center" title="Timestamps for the elements of this page">TIMESTAMPS</div>
+    <div>
+      <div id="wm-capresources" style="margin:0 5px 5px 5px;max-height:250px;overflow-y:scroll !important"></div>
+      <div id="wm-capresources-loading" style="text-align:left;margin:0 20px 5px 5px;display:none"><img src="/_static/images/loading.gif" alt="loading" /></div>
+    </div>
+    </div>
+  </div></div></div></div><div id="wm-ipp-print">The Wayback Machine - http://web.archive.org/web/20200318095231/https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(675,27,25,2,"web","https://gallery.technet.microsoft.com/Sccm-Client-Install-Exit-91da7a87/file/192751/1/SCCMData.xml","20200318095231",1996,"/_static/",["/_static/css/banner-styles.css?v=fantwOh2","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT --><sccmdata>
+	<exit id="0">
+		<description>Sucess</description>
+		<solution>completed</solution>
+	</exit>
+	<exit id="1603">
+		<description>CCMExec could not be stopped</description>
+		<solution>Reboot and install the client as administrator</solution>
+	</exit>
+	<exit id="7">
+		<description>Reboot Required</description>
+		<solution>Reboot Required</solution>
+	</exit>
+	<exit id="8">
+		<description>Setup Already Running</description>
+		<solution></solution>
+	</exit>
+	<exit id="9">
+		<description>Prerequisite evaluation failure</description>
+		<solution></solution>
+	</exit>
+	<exit id="10">
+		<description>Setup manifest hash validation failure</description>
+		<solution></solution>
+	</exit>
+	<exit id="52">
+		<description>You were not connected because a duplicate name exists on the network</description>
+		<solution>Check for duplicate name in DNS (IP)</solution>
+	</exit>
+	<exit id="53">
+		<description>Unable to locate and Cannot connect C$ </description>
+		<solution>Add File Print sharing to Exceptions in Firewall,Turn file and print on</solution>
+	</exit>
+	<exit id="58">
+		<description>The specified server cannot perform the requested operation</description>
+		<solution></solution>
+	</exit>
+	<exit id="64">
+		<description>The specified network name is no longer available</description>
+		<solution></solution>
+	</exit>
+	<exit id="67">
+		<description>Network name cannot be found</description>
+		<solution>Check if client has a DNS entry or invalid DNS</solution>
+	</exit>
+	<exit id="86">
+		<description>Incorrect network configuration</description>
+		<solution></solution>
+	</exit>
+	<exit id="112">
+		<description>Not enough disk space</description>
+		<solution>Free some space on the computer</solution>
+	</exit>
+	<exit id="1003">
+		<description>Cannot complete this function</description>
+		<solution></solution>
+	</exit>
+	<exit id="1053">
+		<description>The service did not respond to the start or control request in a timely fashion
+</description>
+		<solution></solution>
+	</exit>
+	<exit id="1130">
+		<description>Not enough server storage is available to process this command</description>
+		<solution></solution>
+	</exit>
+	<exit id="1203">
+		<description>The network path was either typed incorrectly, does not exist, or the network provider is not currently available</description>
+		<solution></solution>
+	</exit>
+	<exit id="1208">
+		<description>An extended error has occurred</description>
+		<solution></solution>
+	</exit>
+	<exit id="1305">
+		<description>The revision level is unknown</description>
+		<solution></solution>
+	</exit>
+	<exit id="1396">
+		<description>The target account name is incorrect </description>
+		<solution>Check for duplicate name in DNS (IP),NBTSTAT -a reverse lookup</solution>
+	</exit>
+	<exit id="1450">
+		<description>Insufficient system resources exist to complete the requested service</description>
+		<solution></solution>
+	</exit>
+	<exit id="1618">
+		<description>This error is cause by a multiple client.msi installation at the same time</description>
+		<solution>Stop all related MSI install process</solution>
+	</exit>
+	<exit id="1789">
+		<description>The trust relationship between this workstation and the primary domain failed</description>
+		<solution>Check if client has a DNS entry or invalid DNS</solution>
+	</exit>
+	<exit id="12002">
+		<description>Failed to send HTTP Request</description>
+		<solution>Check firewall ports</solution>
+	</exit>
+<exit id="1396">
+		<description>The target account name is incorrect </description>
+		<solution>Check for duplicate name in DNS (IP),NBTSTAT -a reverse lookup</solution>
+	</exit>
+	<exit id="8007045D">
+		<description>Setup was unable to create the WMI namespace CCM</description>
+		<solution>Delete all SCCM folders and rebuilt wmi Repository</solution>
+	</exit>
+	<exit id="800706BA">
+		<description>Unable to connect to WMI on remote machine</description>
+		<solution>Stop all related MSI install process</solution>
+	</exit>
+	<exit id="80041001">
+		<description>Setup was unable to create the WMI namespace CCM,Warning 25101. Setup was unable to delete WMI namespace CIMV2\SMS</description>
+		<solution>WMI Repair</solution>
+	</exit>
+	<exit id="8004103B">
+		<description>Unable to create the WMI Namespace</description>
+		<solution>Rebuild WMI Repository</solution>
+	</exit>
+<exit id="80070070">
+		<description>Setup failed due to unexpected circumstances</description>
+		<solution>Rebuild WMI RepositoryL</solution>
+	</exit>
+	<exit id="8007045D">
+		<description>Setup was unable to create the WMI namespace CCM</description>
+		<solution>Delete all SCCM folders and rebuilt wmi Repository</solution>
+	</exit>
+	<exit id="800706BA">
+		<description>Unable to connect to WMI on remote machine</description>
+		<solution>Stop all related MSI install process</solution>
+	</exit>
+	<exit id="80041001">
+		<description>Setup was unable to create the WMI namespace CCM,Warning 25101. Setup was unable to delete WMI namespace CIMV2\SMS</description>
+		<solution>WMI Repair</solution>
+	</exit>
+	<exit id="8004103B">
+		<description>Unable to create the WMI Namespace</description>
+		<solution>Rebuild WMI Repository</solution>
+	</exit>
+</sccmdata><!--
+     FILE ARCHIVED ON 09:52:31 Mar 18, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:56:32 Jun 24, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 324.372
+  exclusion.robots: 0.275
+  exclusion.robots.policy: 0.264
+  cdx.remote: 0.086
+  esindex: 0.01
+  LoadShardBlock: 181.638 (3)
+  PetaboxLoader3.datanode: 126.158 (4)
+  CDXLines.iter: 21.865 (3)
+  load_resource: 67.191
+  PetaboxLoader3.resolve: 45.613
+-->
